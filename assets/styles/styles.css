@@ -1,17 +1,19 @@
-#carousel1 {
-    height: 400px;
-    width: 30px;
-    margin-bottom: 30px;
-    
+*, ::after, ::before {
+box-sizing: border-box;
 }
 
-.card {
-    /* margin-left: 50px; */
+#carousel1 {
+    height: 40rem;
+    width: auto;
+    margin-bottom: 50px;
+    display: flexbox;
+    
 }
 
 #card-section{
     position: relative;
-    right: -2%
+    right: -2%;
+    margin-bottom: 50px;
     
 }
 
@@ -21,3 +23,28 @@
         left: 100px
     }
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 5rem;
+    padding: 2.5rem;
+}
+
+.col-md-7.align-items-center {
+    padding-left: 30rem;
+}
+
+
+@media screen and (max-width: 750px) {
+    .col-md-7.align-items-center {
+        position: relative;
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
