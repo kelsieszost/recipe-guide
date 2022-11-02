@@ -9,5 +9,15 @@
     /* margin-left: 50px; */
 }
 
+#card-section{
+    position: relative;
+    right: -2%
+    
+}
 
-
+@media screen and (max-width: 750px) {
+    #card-section{
+        position: relative;
+        left: 100px
+    }
+}
