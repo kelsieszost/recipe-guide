@@ -33,11 +33,11 @@ box-sizing: border-box;
 }
 
 .col-md-7.align-items-center {
-    padding-left: 30rem;
+    padding-left: 27rem;
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 2000px) {
     .col-md-7.align-items-center {
         position: relative;
         padding: 0%;
