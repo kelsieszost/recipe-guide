@@ -32,7 +32,7 @@ box-sizing: border-box;
     padding: 2.5rem;
 }
 
-.col-md-7.align-items-center {
+.col-md-7.align-items-center-two {
     padding-left: 27rem;
 }
 
@@ -40,22 +40,33 @@ div.col-md-5 {
     padding-left: 8rem;
 }
 
-div.col-lg-5 {
+div.col-md-5 {
     display: flex;
-    padding-left: 20rem;
+    padding-left: 30rem;
 }
 
-div.col-lg-7 {
-    padding-left: 10rem;
+div.col-md-7 {
+    
 }
 
 
 @media screen and (max-width: 2000px) {
-    .col-md-7.align-items-center {
+    .col-md-7.align-items-center, div.col-lg-7 {
         position: relative;
         padding: 0%;
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    div.col-lg-5, div.col-md-5 {
+        position: relative;
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }
 
