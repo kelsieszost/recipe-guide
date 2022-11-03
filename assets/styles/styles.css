@@ -50,7 +50,7 @@ div.col-md-7 {
 }
 
 
-@media screen and (max-width: 2000px) {
+/* @media screen and (max-width: 2000px) {
     .col-md-7.align-items-center, div.col-lg-7 {
         position: relative;
         padding: 0%;
@@ -68,7 +68,7 @@ div.col-md-7 {
         align-items: center;
         justify-content: center;
     }
-}
+} */
 
 
 
