@@ -70,5 +70,37 @@ div.col-md-7 {
     }
 } */
 
+.featurette-image1{
+    position: relative;
+    right: 20%
+    
+}
+
+.featurette-image2{
+    position: relative;
+    left: 30%
+    
+}
+
+
+@media screen and (max-width: 1600px) {
+    .featurette-image1{
+        position: relative;
+        left: -4%
+    }
+    #text1{
+        position: relative;
+        left: 40px
+    }
+    .featurette-image2{
+        position: relative;
+        left: -5%
+    }
+    #text2{
+        position: relative;
+        left: 40px
+    }
+}
+
 
 
